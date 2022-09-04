@@ -1,0 +1,18 @@
+/**
+* This program displays a data type related
+* from Users Input
+* @Version 2022-09-02
+* @author Hilman Permana
+*/
+
+public class Soal1
+{
+	public static void main(String[] args)
+	{
+		int Input;
+		long maksimum = long.MAX_VALUE;
+		long minimun = long.MIN_VALUE;
+		
+		System.out.print(maksimum);
+	}
+}
