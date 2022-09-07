@@ -1,3 +1,4 @@
+package teori;
 /**
  * Program counted student value
  * and define to grade
