@@ -9,7 +9,7 @@ package teori;
 
 import java.util.Scanner;
 
-public class GradeMhs {
+public class customer {
 	public static void main(String[] args) {
 
 		int n = 0;
