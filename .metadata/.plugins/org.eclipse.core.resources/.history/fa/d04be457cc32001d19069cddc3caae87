@@ -1,0 +1,26 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+import java.util.Scanner;
+
+public class Soal1_2 {
+    public static void main(String[] args) {
+        List<String> tokenList = new ArrayList<String>();
+        String str;
+        
+        Scanner input = new Scanner(System.in);
+        System.out.println("Input letter : ");
+        str = input.nextLine();
+        
+        Pattern pattern = Pattern.compile("[(\")]|\\w+.\\w'|==");
+        Matcher matcher = pattern.matcher(str);
+        while (matcher.find()) {
+            tokenList.add(matcher.group());
+        }
+
+        for (String token : tokenList) {
+            System.out.println(token);
+        }
+    }
+}

@@ -1,0 +1,18 @@
+package teori;
+import java.util.*;
+
+public class Class_Object1
+{
+	public static void main(String[] args)
+	{
+		
+		Ormawa Or1 = null, Or2 = null;
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("== PENDATAAN ORGANISASI MAHASISWA == \n\n");
+		
+		System.out.println(" Kategori : ");
+		Or1.kategori = input.nextLine();
+	}
+}
+

@@ -1,0 +1,20 @@
+package teori;
+
+
+	public class Ormawa
+	{
+		
+		public String nama;
+		public String bidang;
+		public int TahunBerdiri;
+		private boolean status;
+		private class Kegiatan
+		{
+			String Program_Unggulan;
+			String Pergerakan;
+			int jumlah_kegiatan;
+		}
+		private int jumlah_anggota_sekarang;
+		public String NamaPembina;
+		
+	}

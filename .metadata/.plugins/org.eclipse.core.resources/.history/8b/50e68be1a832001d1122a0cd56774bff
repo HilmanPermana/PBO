@@ -1,0 +1,34 @@
+package teori;
+import java.util.*;
+
+	public class Ormawa
+	{
+		public String kategori;
+		public String nama;
+		public String bidang;
+		public int TahunBerdiri;
+		private boolean status;
+		private class Kegiatan
+		{
+			String Program_Unggulan;
+			String Pergerakan;
+			int jumlah_kegiatan;
+		}
+		private int jumlah_anggota_sekarang;
+		public String NamaPembina;
+		
+		public void Daftar(String nama, String Jurusan, int i) {
+			
+			Scanner input = new Scanner(System.in);
+			
+			System.out.println(" Nama : ");
+			nama = input.nextLine();
+			
+			System.out.println(" Jurusan : ");
+			nama = input.nextLine();
+			
+			System.out.println(" Usia : ");
+			i = input.nextByte();
+			
+		}
+	}

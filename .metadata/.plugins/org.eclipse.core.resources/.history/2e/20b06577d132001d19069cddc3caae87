@@ -1,0 +1,30 @@
+
+import java.util.Scanner;
+import java.util.StringTokenizer;  
+
+
+public class Soal1_2{  
+ public static void main(String args[]){  
+	 
+	String s;
+	int n;
+	
+	Scanner input = new Scanner(System.in);
+   
+    System.out.print("How many letter? ");
+    n = input.nextInt();
+   
+    for(int i=1; i<=n; ++i) {
+    	
+    	System.out.println("Input letter : ");
+    	s = input.nextLine();
+    	StringTokenizer st = new StringTokenizer(s,"' ");  
+    	
+	     while (st.hasMoreTokens()) {  
+	    	 System.out.println(st.countTokens());
+	         System.out.println(st.nextToken());  
+	     }  
+	     System.out.println();
+    }
+   }  
+}  

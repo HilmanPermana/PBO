@@ -1,0 +1,44 @@
+package teori;
+import java.util.*;
+
+public class Class_Object1
+{
+	public static void main(String[] args)
+	{
+		
+		Ormawa Or1 = new Ormawa();
+		
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("== PENDATAAN ORGANISASI MAHASISWA == \n\n");
+		
+		System.out.println(" Kategori : ");
+		Or1.kategori = input.nextLine();
+		
+		System.out.println(" Nama : ");
+		Or1.nama = input.nextLine();
+		
+		
+		System.out.println(" Bidang : ");
+		System.out.print("   *khusus UKM selain itu (-) ");
+		Or1.bidang = input.nextLine();
+		
+		System.out.println(" Tahun Berdiri : ");
+		Or1.TahunBerdiri = input.nextInt();
+		
+		System.out.println(" Nama Pembina : ");
+		Or1.NamaPembina = input.nextLine();
+		System.out.println();
+		
+		
+		System.out.println("Kategori : " + Or1.kategori);
+		System.out.println("Nama : " + Or1.nama);
+		System.out.println("Bidang : " + Or1.bidang);
+		System.out.println("Tahun Berdiri : " + Or1.TahunBerdiri);
+		System.out.println("Nama Pembina : " + Or1.NamaPembina);
+		
+		
+		
+	}
+}
+

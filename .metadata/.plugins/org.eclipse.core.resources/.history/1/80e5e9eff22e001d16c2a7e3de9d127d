@@ -1,0 +1,18 @@
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Soal6_IO{
+	public static void main(String[] args) {
+
+		String s = "I was'n home";
+		
+		Scanner keyboard = new Scanner(System.in);
+		System.out.println("Input letter : ");
+		
+		Arrays.stream(s.split("'")).forEach(System.out::println);
+		
+		
+		
+	}
+}

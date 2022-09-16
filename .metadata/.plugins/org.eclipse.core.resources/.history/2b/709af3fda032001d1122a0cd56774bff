@@ -1,0 +1,16 @@
+package teori;
+
+
+public class Class_Object1
+{
+	public static void main(String[] args)
+	{
+		
+		Ormawa Or1, Or2, Or3 = new Ormawa();
+		
+		System.out.println("== PENDATAAN ORGANISASI MAHASISWA == \n\n");
+		
+		
+	}
+}
+

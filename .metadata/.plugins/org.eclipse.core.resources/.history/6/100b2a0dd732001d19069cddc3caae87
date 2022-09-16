@@ -1,0 +1,31 @@
+public class Soal3_2 {
+	public static void main(String[] args) {
+		int angka1;
+		int angka2;
+		char operator;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("masukan angka 1 operator dan angka 2 satu persatu");
+		angka1 = sc.nextInt();
+		operator = sc.next().charAt(0);
+		angka2 = sc.nextInt();
+
+		int result = 0;
+
+		switch (operator) {
+		case '+':
+			result = angka1 + angka2;
+			break;
+		case '-':
+			result = angka1 - angka2;
+			break;
+		case '*':
+			result = angka1 * angka2;
+			break;
+		case '/':
+			result = angka1 / angka2;
+		default:
+			System.out.println("illegal operand");
+		}
+		System.out.println("Result : " + result);
+	}
+}
