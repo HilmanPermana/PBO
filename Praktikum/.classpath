@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="Task1/src"/>
+	<classpathentry excluding="Week4/Kasus-1/Week4/|Week4/Kasus-1/Week4/|Week4/Kasus-1/|Week4/Kasus-1/" kind="src" path="Task1/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-18">
 		<attributes>
 			<attribute name="module" value="true"/>
