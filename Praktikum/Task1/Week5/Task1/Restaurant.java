@@ -4,7 +4,7 @@ public class Restaurant
 {
 	public String[] nama_makanan;
 	public double[] harga_makanan;
-	public int[] stok;
+	private int[] stok;
 	public static byte id=0;
 	
 	public Restaurant()
@@ -26,7 +26,8 @@ public class Restaurant
 		for(int i = 0; i<= id; i++)
 		{
 			if(!isOutOfStock(i)) {
-				System.out.println(nama_makanan[i] + "["+stok)
+				System.out.println(nama_makanan[i] + "["+stok[i]+"]"+
+				"\tRp. "+harga_makanan[i]);
 			}
 				
 		}
@@ -42,4 +43,10 @@ public class Restaurant
 			return false;
 		}
 	}
+	
+	public static void nextId()
+	{
+		id++;
+	}
 }
+
