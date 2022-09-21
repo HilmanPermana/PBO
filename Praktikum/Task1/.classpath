@@ -7,5 +7,7 @@
 	</classpathentry>
 	<classpathentry excluding="Week4/|Week4/" kind="src" path="src"/>
 	<classpathentry kind="src" path="src/Week4"/>
+	<classpathentry kind="src" path="Week4"/>
+	<classpathentry kind="src" path="Week5"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
