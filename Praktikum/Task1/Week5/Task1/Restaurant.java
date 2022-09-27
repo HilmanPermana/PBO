@@ -16,14 +16,14 @@ public class Restaurant {
 
 	public void tambahMenuMakanan(String nama, double harga, int stok) {
 		this.nama_makanan[id] = nama;
-		this.harga_makanan[id] = harga;
+		this.harga_makanan[id]= harga;
 		this.stok[id] = stok;
 	}
 
 	public void tampilMenuMakanan() {
 		for (int i = 0; i <= id; i++) {
 			if (!isOutOfStock(i)) {
-				System.out.println(nama_makanan[id] + "[" + getStok()+ "]" + "\tRp. " + harga_makanan[i]);
+				System.out.println(nama_makanan + "[" + getStok()+ "]" + "\tRp. " + harga_makanan[i]);
 			}
 
 		}

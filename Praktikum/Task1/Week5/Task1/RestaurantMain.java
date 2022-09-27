@@ -12,7 +12,8 @@ public class RestaurantMain
 		Restaurant.nextId();
 		menu.tambahMenuMakanan("Tahu", 1_000, 0);
 		Restaurant.nextId();
-		menu.tambahMenuMakanan("Molen * 2,  1_000, 20", 0, 0);
+		menu.tambahMenuMakanan("Molen",  1_000, 20);
+		Restaurant.nextId();
 		
 		menu.tampilMenuMakanan();
 	}
